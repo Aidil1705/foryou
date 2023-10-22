@@ -1,0 +1,55 @@
+body{
+    background-color: #07252d;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+}
+.button{
+    padding-left: 100px;
+    display: flex;
+
+}
+#pesan1{
+    position: relative;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+#pesan1:hover{
+    position: relative;
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+#pesan2{
+    position: relative;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    left: 100px;
+}
+#pesan2:hover{
+    position: relative;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.gambar1{
+    width: 500px;
+
+}
+.container{
+
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
